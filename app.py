@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Cargar modelo entrenado
-model = joblib.load("best_model.txt")
+model = joblib.load("best_model.pkl")
 
 # Configuración de la página
 st.set_page_config(page_title="Predicción de CO en el aire", page_icon="🌱", layout="centered")
